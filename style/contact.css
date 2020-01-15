@@ -153,10 +153,7 @@ margin-left:350px;
 .form_settings p
 { padding: 0 0 4px 0;}
 
-.form_settings textarea
-{height:100px;
-	}
-  
+
 .form_settings input, .form_settings textarea
 { padding: 5px; 
 
@@ -176,9 +173,27 @@ margin-left:350px;
   cursor: pointer; 
   background: #263C56; 
   color: #FFF;}
-
+.form_settings  dropdown, .form_settings select
+{height:20px; 
+font: 100% arial; 
+width: 299px;}
 .form_settings textarea, .form_settings select
-{ font: 100% arial; 
-  width: 299px;}
+{height:60px; 
+font: 100% arial; 
+width: 299px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
