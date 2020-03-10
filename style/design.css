@@ -1,0 +1,208 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background-image: url("3.jpg");
+  color: #777;
+  
+  height: 100%; 
+  background-position:inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
+
+
+#footer
+{ 	position:absolute;
+	left:00px;
+	top:94%;
+	width:100%;	
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 30px;
+  padding: 10px 0 5px 0;
+  text-align: center; 
+  background: #003;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;}
+
+
+
+
+
+
+
+
+
+
+.card
+{
+	position:fixed;
+	top:40px;	 
+	left:50%;
+	transform:translate(-50%,50%);
+	width:300px;
+	height:400px;
+	transform-style:preserve-3d;
+	perspective:600px;
+	transition:0.5s;
+	
+}
+
+.card .front
+{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:#000;
+	backface-visibility:hidden;
+	transform:rotateX(0deg);
+	transition:0.5s;
+	overflow:hidden;
+
+}
+
+.card:hover .front
+{
+			transform:rotateX(-180deg);
+
+}
+
+
+.card .back
+{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:inherit;
+	backface-visibility:hidden;
+	transform:rotateX(180deg);
+	transition:0.5s;
+overflow:hidden
+}
+
+
+.card .back:before
+{
+	content:" ";
+	position:absolute;
+	top:0;
+	left:-50;
+	height:100%;
+	width:100%;
+	background:rgba(255,255,255,0.1);
+}
+
+
+
+
+.card:hover .back
+{
+			transform:rotateX(0deg);
+
+}
+
+
+
+.card .back .details
+{
+	position:absolute;
+	top:50%;
+	left:0;
+	width:100%;
+	text-align:center;
+	padding:20px;
+	box-sizing:border-box;
+	transform:translateY(-50%);
+	
+
+}
+
+.card .back .details h2
+{
+	margin:0;
+	padding:0;
+	font-size:24px;
+	color:#fff;
+
+}
+
+.card .back .details h2 span
+{
+	font-size:16px;
+	color:#a7a7a7;
+
+}
+
+.icons
+{
+padding:10px 0;
+}
+
+.icons a
+{
+display:inline-block;
+width:36px;
+height:36px;
+text-align:center;
+background:#262626;
+color:#fff;
+text-decoration:none;
+border-radius:50%;
+transition:0.5s;
+}
+
+.icons a .fa
+{
+	line-height:36px;
+}
+
+.icons a:hover
+{
+background:#03C;
+}
+
+
+
+.myButton {
+	position:relative;
+	box-shadow: 9px -2px 9px 0px #002;
+	background-color:#000;
+	border-radius:28px;
+	
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	
+	margin-left:45%;
+	
+	margin-top:57px;
+}
+	.myButton:hover {
+	background-color:#004;
+	box-shadow: 9px -2px 9px 0px #006;
+	
+}
+ &:active {
+	position:relative;
+	top:1px;
+}
+ }
+        
+
+
