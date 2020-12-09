@@ -1,6 +1,6 @@
 # OceanLife
 
-This project content some information about comman🐬🐳🐠  and rare sea animals 🐙🦐 in with beautiful animation.
+This project content some information about comman🐬🐳🐠  and rare sea animals 🐙🦐 with beautiful animation.
 
 
 To open site in you browser visit below.(Content of web can vary from browser to browser.)
